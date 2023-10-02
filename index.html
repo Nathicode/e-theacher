@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1  id="logo" onclick="h1()">click the grade to start</h1>
+            <ul>
+                <li><button onclick="nine()" class="active" id="nine">Grade9</button></li>
+                <li><button href="" onclick="ten()" id="ten">Grade10</button></li>
+                <li><button href="" onclick="eleven()" id="eleven">Grade11</button></li>
+                <li><button onclick="twelve()" id="twelve">Grade 12</button></li>
+            </ul>
+        </div>
+      <div class="med" id="med">
+        <div class="medium">
+            <label>Choose Your Subject</label>
+           <select id="select">
+         <option value="bio">Biology</option>
+       <option value="chem">Chemistry</option>
+         <option value="his">History</option>
+         <option value="eng">English</option>
+           </select>
+            <label>How Many Questions?</label>
+            <select id="how">
+             <option value="five">5</option>
+             <option value="ten">10</option>
+             <option value="fifteen">15</option>
+            </select>
+            <label>Select the Unit</label>
+            <select id="unit">
+          <option value="unit1">Unit1</option>
+          <option value="unit2">Unit2</option>
+         <option value="unit3">Unit3</option>
+                
+            </select>
+            <button id="submit" onclick="submit()">Process</button>
+        </div>
+      </div>
+        <div class="bottom">
+            <button onclick="copys()" id="bts">Copy by Selecting Sir</button>
+        </div>
+    </div>
+</body>
+</html>
